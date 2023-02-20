@@ -11,11 +11,15 @@
 * To use this program you need to install Python (the latest version). You will need to use an IDE for Python (e.g. Pycharm) to run the files.
 
 * There are three key files that you need to add to the same folder, as follows:
+
       1. 'T32 - capstone - inventory.py' - this is the bulk of the programme and contains all the functions that are called by the user from the main menu)
+      
       2. 'shoe_class.py' - this file creates the class 'Shoe' with methods inside the class (get_cost to return the cost of shoes, get_quantity to return the quantity of shoes in stock, and rendering the class as a string). 
+      
       3. Because the python code reads from a text file you will also need to add the text file 'inventory.txt' to the same folder as this contains data that is required by the programme (as well as being the file that you have the option to change/amend).
 
-* Because of the use of tabulate in the 'view all' selection, you will need to ensure you have tabulate imported.
+
+* Because of the use of tabulate in the 'view all' selection, you will also need to ensure you have tabulate imported.
 
 * When you run the Python file entitled 'T32 - capstone - inventory.py' this will give you a menu inviting you to input your preferred options, and further options which allow you to perform the actions set out in the _usage_ section. You don't need to do anything with the other two files except save them to the same folder.
 
@@ -30,6 +34,8 @@
 2. *Add* - allows you to add new data about a shoe (having done this, I also provided the user with the option of adding the information permanently to the text file)
 
 3. *View all* - allows you to see the information in your shoe inventory - data is returned organised using Python's tabulate module
+
+![Screenshot of tabulate display of data in inventory](https://github.com/RosalindHook/finalCapstone/blob/main/Screenshot%202023-02-20%20at%2023.29.41.png)
 
 4. *Restock* - lets you see and restock the shoes with the lowest quantity and 
 
