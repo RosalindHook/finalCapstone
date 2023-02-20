@@ -42,7 +42,7 @@
 5. *Search* - lets you search for information about a shoe by either code or product name, and returns the other attributes
 
 
-![Screenshot of returned data when searched by product name]()
+![Screenshot of returned data when searched by product name](https://github.com/RosalindHook/finalCapstone/blob/main/Screenshot%202023-02-20%20at%2023.40.47.png)
 
 6. *Value* - allows you to find out the total value for each item
 
