@@ -12,14 +12,14 @@
 
 * There are three key files that you need to add to the same folder, as follows:
 
-      1. 'T32 - capstone - inventory.py' - this is the bulk of the programme and contains all the functions that are called by the user from the main menu)
+1. 'T32 - capstone - inventory.py' - this is the bulk of the programme and contains all the functions that are called by the user from the main menu)
       
-      2. 'shoe_class.py' - this file creates the class 'Shoe' with methods inside the class (get_cost to return the cost of shoes, get_quantity to return the quantity of shoes in stock, and rendering the class as a string). 
+2. 'shoe_class.py' - this file creates the class 'Shoe' with methods inside the class (get_cost to return the cost of shoes, get_quantity to return the quantity of shoes in stock, and rendering the class as a string). 
       
-      3. Because the python code reads from a text file you will also need to add the text file 'inventory.txt' to the same folder as this contains data that is required by the programme (as well as being the file that you have the option to change/amend).
+3. Because the python code reads from a text file you will also need to add the text file 'inventory.txt' to the same folder as this contains data that is required by the programme (as well as being the file that you have the option to change/amend).
 
 
-* Because of the use of tabulate in the 'view all' selection, you will also need to ensure you have tabulate imported.
+* Because of the use of tabulate in the 'view all' selection, you will also need to ensure you have imported the tabulate module (does not come as standard with Python).
 
 * When you run the Python file entitled 'T32 - capstone - inventory.py' this will give you a menu inviting you to input your preferred options, and further options which allow you to perform the actions set out in the _usage_ section. You don't need to do anything with the other two files except save them to the same folder.
 
@@ -41,6 +41,9 @@
 
 5. *Search* - lets you search for information about a shoe by either code or product name, and returns the other attributes
 
+
+![Screenshot of returned data when searched by product name]()
+
 6. *Value* - allows you to find out the total value for each item
 
 7. *Highest* - lets you see the shoes with the highest quantity and asks you to put these on sale
@@ -49,7 +52,7 @@
 
 Although the bootcamp tast did not require this, I added features such as enabling editing of the text file in some of these options where it made sense to give the user an option to make permanent changes to the text file (e.g. changing the quantity of stock, reducing the price on items with the highest quantity in stock).
 
-To follow -screenshots
+![Screenshot of the 'Highest' option where you are asked to put these shoes on sale]()
 
 
 ## Contibutors
