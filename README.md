@@ -2,9 +2,9 @@
 
 ## Summary of project
 
-* This capstone project was designed to manage stock-taking in a shoe warehouse. The user is able to perform a series of different actions on data using object oriented programming (OOP) and a series of methods and functions as described in _usage_ section below.
+* This capstone project was designed to manage stock-taking in a shoe warehouse. The user is able to perform a series of different actions around stock-handling using data available in a separate .txt file.
 
-* It is designed and written in Python, using object oriented programming (OOP) It sets up a variable to store a list of shoe objects with the following attributes: country of origin, code/barcode, product name, cost, quantity in stock, value of stock (cost * quantity).
+* This project is designed and written in Python, using object oriented programming (OOP), and a series of methods and functions outlined in the _usage_ section below.
 
 ## Installation
 
@@ -12,24 +12,23 @@
 
 * There are three key files that you need to add to the same folder, as follows:
 
-1. 'T32 - capstone - inventory.py' - this is the bulk of the programme and contains all the functions that are called by the user from the main menu)
-      
+1. 'T32 - capstone - inventory.py' - this is the bulk of the programme and contains all the functions that are called by the user from the main menu).
+
 2. 'shoe_class.py' - this file creates the class 'Shoe' with methods inside the class (get_cost to return the cost of shoes, get_quantity to return the quantity of shoes in stock, and rendering the class as a string). 
       
 3. Because the python code reads from a text file you will also need to add the text file 'inventory.txt' to the same folder as this contains data that is required by the programme (as well as being the file that you have the option to change/amend).
 
-
-* Because of the use of tabulate in the 'view all' selection, you will also need to ensure you have imported the tabulate module (does not come as standard with Python).
+* Because of the use of tabulate in the 'view all' menu option, you will also need to ensure you have imported the tabulate module (does not come as standard with Python).
 
 * When you run the Python file entitled 'T32 - capstone - inventory.py' this will give you a menu inviting you to input your preferred options, and further options which allow you to perform the actions set out in the _usage_ section. You don't need to do anything with the other two files except save them to the same folder.
 
 ## Usage
 
-* The programme opens and reads from a text file that contains atrributes about shoe stock. 
+* The programme opens and reads from a text file that contains atrributes about shoe stock. It begins by setting up an empty list variable that will be used to store a list of shoe objects. These shoe objects have the following attributes as defined in the shoe_class.py file: country of origin, code/barcode, product name, cost, quantity in stock, value of stock (cost * quantity). All the information about each shoe object is stored in the inventory.txt file as a list.
 
 * Menu options for the user are as follows (each option calls a different function detailed below):
 
-1. *Read* - allows you to read data from a file (NB this option must be selected before any of the other functions can be called, and if other options are selected when the list is empty then it will ask the user to read the file first)
+1. *Read* - allows you to read data from a file (NB this option must be selected before any of the other functions can be called, and if other options are selected when the list is empty then it will ask the user to read the file first).
 
 2. *Add* - allows you to add new data about a shoe (having done this, I also provided the user with the option of adding the information permanently to the text file)
 
@@ -56,7 +55,7 @@ Although the bootcamp task did not require this, I added features such as enabli
 
 The task also includes error handling and defensive programming, for example Try/Except in the case of menu options and other functions requiring user input.
 
-Please enjoy checking out this project and let me know any feedback you may have! I'm keen to use my understanding and learning about OOP, functions, strings and lists in further projects, and also have some ideas for changing the scope of this project and adding additional functionality.
+Please enjoy checking out this project and let me know any feedback you may have! I'm keen to use all I've learned about OOP, functions, strings and lists from this Capstone in further projects, and also have some ideas for changing the scope of this project and adding additional functionality once I have finished the bootcamp.
 
 
 ## Contibutors
