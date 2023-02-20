@@ -37,7 +37,7 @@
 
 ![Screenshot of tabulate display of data in inventory](https://github.com/RosalindHook/finalCapstone/blob/main/Screenshot%202023-02-20%20at%2023.29.41.png)
 
-4. *Restock* - lets you see and restock the shoes with the lowest quantity and 
+4. *Restock* - lets you see and restock the shoes with the lowest quantity - asks you to enter the amount of additional stock for this product 
 
 5. *Search* - lets you search for information about a shoe by either code or product name, and returns the other attributes
 
@@ -50,9 +50,13 @@
 
 8. *Quit* - quit this programme
 
-Although the bootcamp tast did not require this, I added features such as enabling editing of the text file in some of these options where it made sense to give the user an option to make permanent changes to the text file (e.g. changing the quantity of stock, reducing the price on items with the highest quantity in stock).
+Although the bootcamp task did not require this, I added features such as enabling editing of the text file in some of these options where it made sense to give the user an option to make permanent changes to the text file (e.g. changing the quantity of stock, reducing the price on items with the highest quantity in stock).
 
-![Screenshot of the 'Highest' option where you are asked to put these shoes on sale]()
+![Screenshot of the 'Highest' option where you are asked to put these shoes on sale](https://github.com/RosalindHook/finalCapstone/blob/main/Screenshot%202023-02-20%20at%2023.43.40.png)
+
+The task also includes error handling and defensive programming, for example Try/Except in the case of menu options and other functions requiring user input.
+
+Please enjoy checking out this project and let me know any feedback you may have! I'm keen to use my understanding and learning about OOP, functions, strings and lists in further projects, and also have some ideas for changing the scope of this project and adding additional functionality.
 
 
 ## Contibutors
