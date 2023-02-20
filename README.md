@@ -4,13 +4,20 @@
 
 * This capstone project was designed to manage stock-taking in a shoe warehouse. The user is able to perform a series of different actions on data using object oriented programming (OOP) and a series of methods and functions as described in _usage_ section below.
 
-* It is designed and written in Python, using object oriented programming (OOP) and creates the class 'Shoe' with methods inside the class (get_cost to return the cost of shoes and get_quantity to return the quantity of the shoes). It sets up a variable to store a list of shoe objects with the following attributes: country of origin, code/barcode, product name, cost, quantity in stock, value of stock (cost * quantity).
+* It is designed and written in Python, using object oriented programming (OOP) It sets up a variable to store a list of shoe objects with the following attributes: country of origin, code/barcode, product name, cost, quantity in stock, value of stock (cost * quantity).
 
 ## Installation
 
-* To use this program you need to install Python (the latest version). You will need to use an IDE for Python (e.g. Pycharm), open the file entitled 'T32 - capstone - inventory.py' and run it. Because the python code reads from a text file you will also need to add the text file 'inventory.txt' to the same folder.
+* To use this program you need to install Python (the latest version). You will need to use an IDE for Python (e.g. Pycharm) to run the files.
 
-* When you run the Python file this will give you a menu inviting you to input your preferred options, and further options which allow you to perform the actions set out in the _usage_ section.
+* There are three key files that you need to add to the same folder, as follows:
+      1. 'T32 - capstone - inventory.py' - this is the bulk of the programme and contains all the functions that are called by the user from the main menu)
+      2. 'shoe_class.py' - this file creates the class 'Shoe' with methods inside the class (get_cost to return the cost of shoes, get_quantity to return the quantity of shoes in stock, and rendering the class as a string). 
+      3. Because the python code reads from a text file you will also need to add the text file 'inventory.txt' to the same folder as this contains data that is required by the programme (as well as being the file that you have the option to change/amend).
+
+* Because of the use of tabulate in the 'view all' selection, you will need to ensure you have tabulate imported.
+
+* When you run the Python file entitled 'T32 - capstone - inventory.py' this will give you a menu inviting you to input your preferred options, and further options which allow you to perform the actions set out in the _usage_ section. You don't need to do anything with the other two files except save them to the same folder.
 
 ## Usage
 
